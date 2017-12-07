@@ -1,0 +1,42 @@
+* {
+	margin: 0 auto;
+}
+
+/*header element style*/
+
+header {
+	backgroud-color: #F4F4F4;
+	text-align: center;
+}
+
+#h {
+	color: #E7843C;
+}
+
+/*main element style*/
+
+main {
+	background-color: #37A18B;
+	text-align: center;
+}
+
+#m {
+	color: #2A4651;
+}
+
+.img {
+	
+}
+
+.pic {
+	width: 250px;
+	height: 250px;
+}
+
+/*footer element style*/
+
+footer {
+	background-color: #F4F4F4;
+	text-align: center;
+}
+
