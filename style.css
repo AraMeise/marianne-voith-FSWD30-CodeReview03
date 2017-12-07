@@ -5,7 +5,8 @@
 /*header element style*/
 
 header {
-	backgroud-color: #F4F4F4;
+	background-color: #F4F4F4;
+	height: 100px;
 	text-align: center;
 }
 
@@ -18,7 +19,9 @@ header {
 main {
 	background-color: #37A18B;
 	text-align: center;
+	margin-bottom: 0;
 }
+
 
 #m {
 	color: #2A4651;
@@ -37,14 +40,51 @@ figcaption {
 	color: #F4F4F4;
 }
 
+/*main element calculator style*/
+
+#c {
+	background-color: #416A80;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 30px;
+}
+
+label {
+	color: white;
+	font-size: 2em;
+}
+
+input {
+	width: 250px;
+	height: 50px;
+
+	font-size: 2em;
+	color: lightgrey;
+
+	border-radius: 10px;
+}
+
+button {
+	width: 240px;
+	height: 50px;
+
+	border-radius: 10px;
+}
 /*footer element style*/
 
 footer {
+	height: 80px;
+	margin-top: 0;
+	padding-top: 20px;
 	background-color: #F4F4F4;
 	text-align: center;
 }
 
 #button {
+	margin-top: 0;
 
 	width: 300px;
 	height: 50px;
@@ -56,9 +96,8 @@ footer {
     background: linear-gradient(white, grey); /* Standard syntax */
 
     border: 2px solid #2A4651;
-    border-radius: 20px;
+    border-radius: 10px;
 
-    margin-top: 20px;
     margin-bottom: 20px;
 
     font-size: 2em;
@@ -67,4 +106,10 @@ footer {
 a {
 	color: #2A4651;
 	text-decoration: none;
+}
+
+#result {
+	margin-top: 0;
+	color: grey;
+	font-size: 1.7em;
 }
