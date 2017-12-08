@@ -1,63 +1,104 @@
 * {
 	margin: 0 auto;
+	font-family: "Open Sans";
+}
+
+body {
+	display: block;
 }
 
 /*header element style*/
 
 header {
+	display: flex;
 	background-color: #F4F4F4;
-	height: 100px;
+	height: 6em;
 	text-align: center;
+	justify-content: center;
+	padding-top: 2em;
 }
 
 #h {
 	color: #E7843C;
+	font-size: 3em;
+	font-weight: normal;
 }
 
 /*main element style*/
 
 main {
+	display: flex;
 	background-color: #37A18B;
-	text-align: center;
 	margin-bottom: 0;
+	text-align: center;
+	justify-content: center;
+
 }
 
 
-#m {
+#heading {
+	display: flex;
+
+	width: 100%;
 	color: #2A4651;
+	margin-bottom: 2%;
+	text-align: center;
+	position: absolute;
+}
+
+#m {
+	text-align: center;
+	font-size: 3em;
+}
+
+#staff {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+	margin-top: 5%;
 }
 
 .img {
-	
+	float: left;
+	text-align: center;	
 }
 
 .pic {
-	width: 250px;
-	height: 250px;
+	width: 60%;
+	height: 60%;
 }
 
 figcaption {
 	color: #F4F4F4;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 /*main element calculator style*/
 
 #c {
+	display: flex;
 	background-color: #416A80;
 	padding: 10px;
 	margin-bottom: 0;
 }
 
 p {
+	flex-flow: column;
+	display: flex;
+	align-items: center;
 	margin-top: 30px;
 }
 
 label {
+	float: left;
 	color: white;
 	font-size: 2em;
 }
 
 input {
+	float: left;
+	align-items: center;
 	width: 250px;
 	height: 50px;
 
@@ -72,11 +113,18 @@ button {
 	height: 50px;
 
 	border-radius: 10px;
+
+	background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, grey); /* Standard syntax */
 }
 /*footer element style*/
 
 footer {
-	height: 80px;
+	display: flex;
+	height: 5em;
 	margin-top: 0;
 	padding-top: 20px;
 	background-color: #F4F4F4;
