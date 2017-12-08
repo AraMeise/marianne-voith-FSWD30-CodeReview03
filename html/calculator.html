@@ -7,33 +7,39 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet" href="../style.css">
-	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
 </head>
 
 
 <body>
 	
 	<header>
-		<h1 id="h">Insurance Company</h1>
+		<h1 id="h">Insurance <b>Company</b></h1>
 	</header>
 
 	<main id="c">
 
 		<form name="costs">
-		
-		<p><label><b>Your Name:</b></label>
-		<input name="yname" maxlength="40"></p>
+			<fieldset>
 
-		<p><label><b>Age:</b></label>
-		<input name="age" maxlength="2"></p>
+				<label for="yname" id="yname"><b>Your Name:</b></label>
+				<input name="yname" maxlength="40">
+			
 
-		<p><label><b>Country:</b></label>
-		<input name="country" maxlength="30"></p>
+				<label for="age" id="age"><b>Age:</b></label>
+				<input name="age" maxlength="2">
+			
 
-		<p><label><b>Horsepower:</b></label>
-		<input name="power" maxlength="3"></p>
+				<label for="country" id="country"><b>Country:</b></label>
+				<input name="country" maxlength="30">
 
-		<p><button id="calculate">Calculate</button></p>
+
+				<label for="power"><b>Horsepower:</b></label>
+				<input name="power" maxlength="3">
+			
+				
+				<button id="calculate"><b>calculate</b></button>
+			</fieldset>
 
 		</form>
 
