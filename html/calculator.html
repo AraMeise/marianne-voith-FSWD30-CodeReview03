@@ -9,7 +9,8 @@
 	<title>Calculator - Insurance Company</title>
 	
 	<link rel="stylesheet" href="../style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
 </head>
 
 
@@ -21,26 +22,26 @@
 
 	<main id="c">
 
-		<form name="costs">
+		<form name="costs" target="_self" method="post">
 			<fieldset>
 
-				<label for="yname" id="yname"><b>Your Name:</b></label>
-				<input name="yname" maxlength="40">
+				<label for="yname"><b>Your Name:</b></label>
+				<input name="yname" id="yname" maxlength="40">
 			
 
-				<label for="age" id="age"><b>Age:</b></label>
-				<input name="age" maxlength="2">
+				<label for="age"><b>Age:</b></label>
+				<input type="number" name="age" id="age" maxlength="2">
 			
 
-				<label for="country" id="country"><b>Country:</b></label>
-				<input name="country" maxlength="30">
+				<label for="country"><b>Country:</b></label>
+				<input name="country" id="country" maxlength="30">
 
 
 				<label for="power"><b>Horsepower:</b></label>
-				<input name="power" maxlength="3">
+				<input type="number" name="power" id="power" maxlength="3">
 			
 				
-				<button id="calculate"><b>calculate</b></button>
+				<button id="calculate" onclick="calculateInsurance()"><b>calculate</b></button>
 			</fieldset>
 
 		</form>
@@ -48,10 +49,10 @@
 	</main>
 
 	<footer>
-		<p id="result">printed calculation goes here</p>
+		<p id="result">here goes the price</p>
 	</footer>
 
-	<script type="text/javascript" src="../script.js"></script>
+	<script type="text/javascript" src="../scripti.js"></script> 
 </body>
 
 </html>

@@ -1,8 +1,7 @@
-document.getElementById("calculate").addEventListener("click", price,false);
+document.getElementById("calculate").addEventListener("click",calculateInsurance)
+document.getElementById("result").innerHTML = calculateInsurance()
 
-document.getElementById("result").innerHTML= price();
-
-function price() {
+function calculateInsurance() {
 
 	var age = document.forms["costs"]["age"].value;
 	var power = document.forms["costs"]["power"].value;
@@ -10,7 +9,5 @@ function price() {
 
 	var insurance = Number(power) * 100 / Number(age) + 150;
 
-	return insurance
-
-	}
-
+	return insurance;
+}
